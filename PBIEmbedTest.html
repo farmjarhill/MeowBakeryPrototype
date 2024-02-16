@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Embedded Power BI Report</title>
+    <script src="https://microsoft.github.io/PowerBI-JavaScript/demo/node_modules/powerbi-client/dist/powerbi.js"></script>
+  </head>
+  <body>
+    <div id="reportContainer"></div>
+
+    <script type="text/javascript">
+      window.addEventListener('DOMContentLoaded', function() {
+        var embedConfiguration = {
+          type: 'report',
+          id: 'REPORT_ID', // Thay thế bằng ID của báo cáo Power BI
+          embedUrl: 'EMBED_URL', // Thay thế bằng URL nhúng của báo cáo Power BI
+          accessToken: 'ACCESS_TOKEN' // Thay thế bằng access token của người dùng đã được cấp
+        };
+
+        var reportContainer = document.getElementById('reportContainer');
+        var report = powerbi.embed(reportContainer, embedConfiguration);
+      });
+    </script>
+  </body>
+</html>
