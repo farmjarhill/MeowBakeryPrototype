@@ -162,10 +162,8 @@
         </a>
       </div><!-- /.logo -->
 
-      <a href="#" class="header-tools__item header-tools__cart js-open-aside" data-aside="cartDrawer">
-        <svg class="d-block" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><use href="#icon_cart" /></svg>
-        <!-- <span class="cart-amount d-block position-absolute js-cart-items-count">2</span> -->
-      </a>
+      
+
     </div><!-- /.container -->
 
     <nav class="header-mobile__navigation navigation d-flex flex-column w-100 position-absolute top-100 bg-body overflow-auto">
@@ -192,7 +190,7 @@
               <a href="index.php" class="navigation__link js-nav-right d-flex align-items-center">Home<svg class="ms-auto" width="7" height="11" viewBox="0 0 7 11" xmlns="http://www.w3.org/2000/svg"><use href="#icon_next_sm" /></svg></a>
             </li>
             <li class="navigation__item">
-              <a href="shop1.php" class="navigation__link js-nav-right d-flex align-items-center">Shop<svg class="ms-auto" width="7" height="11" viewBox="0 0 7 11" xmlns="http://www.w3.org/2000/svg"><use href="#icon_next_sm" /></svg></a>
+              <a href="#" class="navigation__link js-nav-right d-flex align-items-center">Shop<svg class="ms-auto" width="7" height="11" viewBox="0 0 7 11" xmlns="http://www.w3.org/2000/svg"><use href="#icon_next_sm" /></svg></a>
               <div class="sub-menu position-absolute top-0 start-100 w-100 d-none">
                 <a href="#" class="navigation__link js-nav-left d-flex align-items-center border-bottom mb-3"><svg class="me-2" width="7" height="11" viewBox="0 0 7 11" xmlns="http://www.w3.org/2000/svg"><use href="#icon_prev_sm" /></svg>Shop</a>
                 <div class="sub-menu__wrapper">
@@ -310,7 +308,7 @@
               <a href="index.php" class="navigation__link">Home</a>
             </li>
             <li class="navigation__item">
-              <a href="shop1.php" class="navigation__link">Shop</a>
+              <a href="#" class="navigation__link">Shop</a>
               <div class="mega-menu">
                 <div class="container d-flex">
                   <div class="col pe-4">
@@ -404,10 +402,7 @@
             </a>
           </div>
 
-          <a href="#" class="header-tools__item header-tools__cart js-open-aside" data-aside="cartDrawer">
-            <svg class="d-block" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><use href="#icon_cart" /></svg>
-            <!-- <span class="cart-amount d-block position-absolute js-cart-items-count">2</span> -->
-          </a>
+          
 
           <!-- <a class="header-tools__item" href="#" data-bs-toggle="modal" data-bs-target="#siteMap">
             <svg class="nav-icon" width="25" height="18" viewBox="0 0 25 18" xmlns="http://www.w3.org/2000/svg"><use href="#icon_nav" /></svg>

@@ -2636,7 +2636,7 @@ progress {
   top: 100% !important; }
 
 .bottom-0 {
-  bottom: 133px !important; }
+  bottom: 50px !important; }
 
 .bottom-50 {
   bottom: 50% !important; }
@@ -14586,7 +14586,7 @@ button.js-add-wishlist.active .flaticon.flaticon-heart, a.add-to-wishlist.active
     gap: 1.875rem; }
     .shopping-cart__product-item img {
       width: 7.5rem;
-      height: auto; }
+      height: 7.5rem; }
     .shopping-cart__product-item__detail h4, .shopping-cart__product-item__detail .h4 {
       font-size: 1rem;
       font-weight: 400;
@@ -15562,36 +15562,37 @@ body.coming-soon-page {
       max-width: 50%;
       /* Điều chỉnh kích thước hình ảnh theo mong muốn */
     }
-    /* Phân trang JavaScript */
+/* Phân trang JavaScript */
 #pagination {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
 }
 
 #pagination button {
-  background-color: #ff69b4; /* Màu hồng */
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  margin: 0 10px;
-  cursor: pointer;
-  border-radius: 5px;
-  transition: background-color 0.3s ease;
+    background-color: #ff69b4; /* Màu hồng */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
 }
 
 #pagination button:hover {
-  background-color: #ff85c8; /* Màu hồng nhạt hơn khi hover */
+    background-color: #ff85c8; /* Màu hồng nhạt hơn khi hover */
 }
 
 #pagination button:disabled {
-  background-color: #ffc0cb; /* Màu hồng nhạt khi nút bị disable */
-  cursor: not-allowed;
+    background-color: #ffc0cb; /* Màu hồng nhạt khi nút bị disable */
+    cursor: not-allowed;
 }
 
 #pagination #current-page {
-  background-color: transparent;
-  color: #ff69b4;
-  padding: 10px 15px;
+    background-color: transparent;
+    color: #ff69b4;
+    padding: 10px 15px;
 }
+    
